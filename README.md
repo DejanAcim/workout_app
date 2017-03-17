@@ -7,3 +7,4 @@ Gems:
 * capybara
 * guard (with autotesting)
 * bootstrap
+* devise
