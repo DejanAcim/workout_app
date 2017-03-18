@@ -8,3 +8,7 @@ Gems:
 * guard (with autotesting)
 * bootstrap
 * devise
+* jquery-ui-rails
+
+Removed:
+* turbolinks
