@@ -1,13 +1,13 @@
-require 'rails_helper'
+require "rails_helper"
 
 RSpec.feature "Following Friends" do
   before do
-    @john = User.create(first_name: "John",
+    @john = User.create!(first_name: "John",
                         last_name: "Doe",
                         email: "john@example.com",
                         password: "password")
 
-    @peter = User.create(first_name: "Peter",
+    @peter = User.create!(first_name: "Peter",
                         last_name: "Corn",
                         email: "peter@example.com",
                         password: "password")
