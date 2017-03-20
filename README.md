@@ -2,6 +2,7 @@ Tools:
 * Git for version control
 * GitHub as online repository
 * d3js library for data visualization
+* Features testing
 
 Gems:
 * rspec (with backtrace limitation in rails_helper)
