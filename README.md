@@ -12,6 +12,7 @@ Gems:
 * devise
 * jquery-ui-rails
 * d3-rails
+* will_paginate-bootstrap
 
 Removed:
 * turbolinks
