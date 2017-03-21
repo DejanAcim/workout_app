@@ -15,7 +15,7 @@
 
       <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active"><%= link_to "Home", root_path %></li>Search 
+          <li class="active"><%= link_to "Home", root_path %></li>
         </ul>
 
         <%= form_tag(search_dashboards_path, 
@@ -23,7 +23,7 @@
                         role: "search") do %>
           <div class="form-group">
             <%= text_field_tag :search_name, nil, placeholder:
-                    "Search for friends", class: 'btn btn-default' %>            
+                    "Search for friends", class: 'form-control' %>            
           </div>
           <%= submit_tag "Search", class: 'btn btn-default' %>
         <% end %>
